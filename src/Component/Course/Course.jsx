@@ -8,7 +8,7 @@ const Course = ({ course ,handaleTitle}) => {
         <div className='bg-white rounded-lg p-4'>
             <img src={img} alt="" className='w-[100%]' />
             <h1 className='text-lg font-semibold mt-4 mb-3'>{title}</h1>
-            <p className='text-sm font-normal mb-5'>{description}</p>
+            <p className='text-sm font-normal mb-5 text-[#1C1B1B]'>{description}</p>
             <div className='text-[16px] font-medium mb-6 flex justify-between text-[#1C1B1B99]'>
                 <div className='flex justify-between items-center'>
                     <span className='text-black'><FiDollarSign/></span>
