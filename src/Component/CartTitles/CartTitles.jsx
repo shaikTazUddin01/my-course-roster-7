@@ -1,7 +1,7 @@
 import CartTitle from "../CartTitle/CartTitle";
 
 const CartTitles = ({ cartTitles }) => {
-    console.log(cartTitles)
+    // console.log(cartTitles)
 
     return (
         <div>

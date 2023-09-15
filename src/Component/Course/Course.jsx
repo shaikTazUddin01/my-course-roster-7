@@ -1,9 +1,8 @@
-import React from 'react';
 import { BsBook } from 'react-icons/bs';
 import { FiDollarSign } from 'react-icons/fi';
 
 const Course = ({ course ,handaleTitle}) => {
-    const { id,img, title, description, price, credits } = course
+    const { id, img, title, description, price, credits } = course
     return (
         <div className='bg-white rounded-lg p-4'>
             <img src={img} alt="" className='w-[100%]' />
