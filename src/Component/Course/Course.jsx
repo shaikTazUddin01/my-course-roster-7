@@ -4,9 +4,9 @@ import { FiDollarSign } from 'react-icons/fi';
 const Course = ({ course ,handaleTitle}) => {
     const { id, img, title, description, price, credits } = course
     return (
-        <div className='bg-white rounded-lg p-4'>
+        <div className='bg-white rounded-xl p-4'>
             <img src={img} alt="" className='w-[100%]' />
-            <h1 className='text-lg font-semibold mt-4 mb-3'>{title}</h1>
+            <h1 className='text-[17px] font-semibold mt-4 mb-3'>{title}</h1>
             <p className='text-sm font-normal mb-5 text-[#1C1B1B]'>{description}</p>
             <div className='text-[16px] font-medium mb-6 flex justify-between text-[#1C1B1B99]'>
                 <div className='flex justify-between items-center'>
@@ -15,7 +15,7 @@ const Course = ({ course ,handaleTitle}) => {
                 </div>
                 <div className='flex justify-between items-center'>
                     <span className='pr-3 text-black'><BsBook /></span>
-                    <span>Credit : {credits}</span>
+                    <span>Credit : {credits}hr</span>
                 </div>
 
             </div>

@@ -5,7 +5,7 @@ const Courses = ({handaleTitle}) => {
     const[courses,setcourses]=useState([]);
 
     useEffect(()=>{
-        fetch("../../../public/course.json")
+        fetch("course.json")
         .then((res)=>res.json())
         .then((data ) => setcourses(data))
     },[])
