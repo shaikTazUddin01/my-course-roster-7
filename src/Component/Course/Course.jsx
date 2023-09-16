@@ -1,7 +1,7 @@
 import { BsBook } from 'react-icons/bs';
 import { FiDollarSign } from 'react-icons/fi';
 
-const Course = ({ course ,handaleTitle}) => {
+const Course = ({ course ,handaleCart}) => {
     const { id, img, title, description, price, credits } = course
     return (
         <div className='bg-white rounded-xl p-4'>
@@ -19,7 +19,7 @@ const Course = ({ course ,handaleTitle}) => {
                 </div>
 
             </div>
-            <button className='bg-blue-500 text-white w-full py-2 text-lg font-semibold rounded-md' onClick={()=>{handaleTitle(course,id,credits,price)}}>Select</button>
+            <button className='bg-blue-500 text-white w-full py-2 text-lg font-semibold rounded-md' onClick={()=>{handaleCart(course,id,credits,price)}}>Select</button>
         </div>
     );
 };

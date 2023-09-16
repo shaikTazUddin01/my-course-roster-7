@@ -1,5 +1,4 @@
 import CartTitles from '../CartTitles/CartTitles';
-import toast, { Toaster } from 'react-hot-toast';
 
 const Cart = ({ cartTitles, credits, price, Remaining  }) => {
 
@@ -19,7 +18,6 @@ const Cart = ({ cartTitles, credits, price, Remaining  }) => {
           <div className=" py-5">
             <h2 className='font-semibold'>Total Price : {price} USD</h2>
           </div>
-          <Toaster />
         </div>   
         )
       
